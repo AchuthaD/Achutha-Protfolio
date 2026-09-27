@@ -1,7 +1,3 @@
-/* =========================
-   MOBILE MENU
-========================= */
-
 const menuBtn = document.getElementById("menuBtn");
 
 const navbar = document.getElementById("navbar");
@@ -11,11 +7,6 @@ menuBtn.addEventListener("click", () => {
     navbar.classList.toggle("show");
 
 });
-
-
-/* =========================
-   CLOSE MENU AFTER CLICK
-========================= */
 
 const navLinks = document.querySelectorAll(".navbar a");
 
@@ -28,11 +19,6 @@ navLinks.forEach(link => {
     });
 
 });
-
-
-/* =========================
-   ACTIVE NAVIGATION
-========================= */
 
 const sections = document.querySelectorAll("section");
 
@@ -69,11 +55,6 @@ window.addEventListener("scroll", () => {
 
 });
 
-
-/* =========================
-   SCROLL REVEAL
-========================= */
-
 const revealElements =
     document.querySelectorAll(
         ".skill-card, .project-card, .timeline-item, .certificate, .about-text, .education-card"
@@ -108,11 +89,6 @@ revealElements.forEach(element => {
     observer.observe(element);
 
 });
-
-
-/* =========================
-   TERMINAL TYPING EFFECT
-========================= */
 
 const cursor = document.querySelector(".cursor");
 
