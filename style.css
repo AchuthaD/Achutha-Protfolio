@@ -1,8 +1,4 @@
-/* =========================
-   GLOBAL
-========================= */
-
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -43,11 +39,6 @@ ul {
 
     --max-width: 1150px;
 }
-
-
-/* =========================
-   NAVBAR
-========================= */
 
 .header {
     width: 100%;
@@ -139,11 +130,6 @@ ul {
 
     cursor: pointer;
 }
-
-
-/* =========================
-   HOME
-========================= */
 
 .home {
     min-height: 100vh;
@@ -334,11 +320,6 @@ ul {
     color: var(--cyan);
 }
 
-
-/* =========================
-   HERO DESIGN
-========================= */
-
 .hero-design {
     height: 450px;
 
@@ -504,11 +485,6 @@ ul {
     letter-spacing: 1px;
 }
 
-
-/* =========================
-   SECTIONS
-========================= */
-
 .section {
     padding: 100px max(25px, calc((100% - var(--max-width)) / 2));
 }
@@ -555,10 +531,6 @@ ul {
     line-height: 1.2;
 }
 
-
-/* =========================
-   ABOUT
-========================= */
 
 .about-container {
     display: grid;
@@ -692,11 +664,6 @@ ul {
     font-size: 11px;
 }
 
-
-/* =========================
-   SKILLS
-========================= */
-
 .skills-grid {
     display: grid;
 
@@ -799,11 +766,6 @@ ul {
 
     font-size: 11px;
 }
-
-
-/* =========================
-   PROJECTS
-========================= */
 
 .projects-container {
     display: grid;
@@ -958,11 +920,6 @@ ul {
     font-size: 12px;
 }
 
-
-/* =========================
-   EXPERIENCE
-========================= */
-
 .timeline {
     max-width: 850px;
 
@@ -1040,11 +997,6 @@ ul {
 
     margin-left: 20px;
 }
-
-
-/* =========================
-   CERTIFICATES
-========================= */
 
 .certificates-grid {
     display: grid;
@@ -1138,11 +1090,6 @@ ul {
     font-size: 10px;
 }
 
-
-/* =========================
-   CONTACT
-========================= */
-
 .contact {
     padding: 110px 25px;
 
@@ -1221,11 +1168,6 @@ ul {
     color: var(--cyan);
 }
 
-
-/* =========================
-   FOOTER
-========================= */
-
 footer {
     padding: 25px;
 
@@ -1242,11 +1184,6 @@ footer {
     font-size: 11px;
 }
 
-
-/* =========================
-   ANIMATION
-========================= */
-
 .reveal {
     opacity: 0;
 
@@ -1261,10 +1198,6 @@ footer {
     transform: translateY(0);
 }
 
-
-/* =========================
-   RESPONSIVE
-========================= */
 
 @media(max-width: 1000px) {
 
